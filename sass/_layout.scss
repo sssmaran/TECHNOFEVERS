@@ -1,0 +1,67 @@
+
+header{
+    min-height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.hero-section{
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(../img/Rectangle.png);
+    background-size: cover;
+    
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.achievement{
+    margin-top: -2rem;
+    z-index: 1;
+    background-color: var(--color-primary);
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem;
+}
+.image-section{
+    background-color: var(--color-primary);
+    width: 100%;
+    height:auto;
+    
+}
+
+.team{
+    min-height: 80vh;
+}
+.review{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    min-height: 50vh;
+    background-color: var(--color-primary);
+    width: 100%;
+    overflow-wrap: break-word;
+}
+footer{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
