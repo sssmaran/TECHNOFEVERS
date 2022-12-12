@@ -33,7 +33,7 @@
       font-size:1.4rem;
       color: var(--color-violet);
     }
-    & #item:last-child{
+    :last-child{
       margin-right: 0rem;
 
     }

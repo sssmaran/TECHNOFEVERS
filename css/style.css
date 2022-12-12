@@ -129,7 +129,7 @@ footer {
       font-weight: 400;
       font-size: 1.4rem;
       color: var(--color-violet); }
-    .logo__nav-items #item:last-child {
+    .logo__nav-items :last-child {
       margin-right: 0rem; }
 
 .hero-section {
