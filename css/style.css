@@ -129,8 +129,8 @@ footer {
       font-weight: 400;
       font-size: 1.4rem;
       color: var(--color-violet); }
-      .logo__nav-items #item :last-child {
-        margin-right: 0rem; }
+    .logo__nav-items #item:last-child {
+      margin-right: 0rem; }
 
 .hero-section {
   overflow-wrap: break-word;
@@ -539,7 +539,8 @@ footer p {
   color: var(--color-violet); }
 
 footer .socials {
-  justify-content: center; }
+  justify-content: center;
+  object-fit: contain; }
   footer .socials img {
     margin-right: 1rem;
     width: auto;
